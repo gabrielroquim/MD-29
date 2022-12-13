@@ -3,13 +3,11 @@ const allure = require('allure-commandline')
 const video = require('wdio-video-reporter');
 
 exports.config = {
-    // hostname: 'localhost',
-    // port: 4723,
+
     path: '/wd/hub',
     user: "gabrielamorimdas_XUf4vO",
     key: "KFvWTnxQvyEyrg3bhqKX",
 
-    // services: ['appium'],
     services: ['browserstack'],
     specs: [
         './test/specs/**/*.spec.js'
@@ -21,16 +19,16 @@ exports.config = {
     },
     framework: 'mocha',
     capabilities: [
-    {
-        project: "Meu primeiro projeto Appium iOS BS",
-        build: 'EBAC Test',
-        name: 'ebac_test',
-        device: 'iPhone 12 Pro',
-        os_version: "14",
-        'browserstack.debug': true,
-        app: "bs://aaec6f8afb058a7a39c4ba88ba4f3bd3943ce541"
-    }
-        
+        {
+            project: "Meu primeiro projeto Appium iOS BS",
+            build: 'EBAC Test',
+            name: 'ebac_test',
+            device: 'iPhone 12 Pro',
+            os_version: "14",
+            'browserstack.debug': true,
+            app: "bs://aaec6f8afb058a7a39c4ba88ba4f3bd3943ce541"
+        }
+
     ],
     waitforTimeout: 20000,
     mochaOpts: {
@@ -68,7 +66,7 @@ exports.config = {
         })
     },
     afterStep: function (test, scenario, { error, duration, passed }) {
-        if(error) {
+        if (error) {
             driver.takeScreenshot()
         }
     }
