@@ -1,7 +1,7 @@
 {
   "name": "testes-mobile-ebac-shop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testes App IOS Loja Ebac",
   "main": "index.js",
   "scripts": {
     "test": "npx wdio run ./wdio.conf.js",
@@ -10,7 +10,7 @@
     "report": "npx allure open allure-report"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Roquim",
   "license": "ISC",
   "dependencies": {
     "@wdio/allure-reporter": "^7.10.1",
@@ -23,5 +23,16 @@
     "allure-commandline": "^2.13.8",
     "appium": "^1.21.0",
     "wdio-video-reporter": "^3.1.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielroquim/MD-29.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielroquim/MD-29/issues"
+  },
+  "homepage": "https://github.com/gabrielroquim/MD-29#readme"
 }

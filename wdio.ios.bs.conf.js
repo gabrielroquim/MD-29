@@ -6,8 +6,8 @@ exports.config = {
     // hostname: 'localhost',
     // port: 4723,
     path: '/wd/hub',
-    user: "lojaebac_gBJk0x",
-    key: "dQfHqx13fxpsVg1Ns1Yc",
+    user: "gabrielamorimdas_XUf4vO",
+    key: "KFvWTnxQvyEyrg3bhqKX",
 
     // services: ['appium'],
     services: ['browserstack'],
@@ -28,17 +28,9 @@ exports.config = {
         device: 'iPhone 12 Pro',
         os_version: "14",
         'browserstack.debug': true,
-        app: "bs://c373eea6d87b8b0da7ea7c0d59a8006275c8d12d"
+        app: "bs://aaec6f8afb058a7a39c4ba88ba4f3bd3943ce541"
     }
-        // {
-        //     "platformName": "iOS",
-        //     "deviceName": "iPhone 13",
-        //     "platformVersion": "15.2",
-        //     "orientation": "PORTRAIT",
-        //     "automationName": "XCUITest",
-        //     "app": join(process.cwd(), './app/ios/loja-ebac.app'),
-        //     'newCommandTimeout': 240
-        //   }
+        
     ],
     waitforTimeout: 20000,
     mochaOpts: {
