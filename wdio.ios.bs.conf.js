@@ -70,5 +70,17 @@ exports.config = {
         if (error) {
             driver.takeScreenshot()
         }
-    }
+    },
+    beforeSuite: async function(){
+        //verificar se o app ja esta instalado e executando
+        let state = await driver.queryAppState("br.art.ebaconline")
+        if(state !== 4){
+            await driver.launchApp()
+        }
+    },
+    afterSuite: async function(){
+        //fechar o app
+        await driver.closeApp()
+    },
+    maxInstances: 1
 }
