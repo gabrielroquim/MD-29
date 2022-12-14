@@ -21,6 +21,6 @@ describe('Search products', () => {
         await productViewScreen.searchBy(`${searchName}\n`)
         
         // Possivel Erro ou Flaky Test
-        // expect(await productViewScreen.product(searchName)).toExist()
+         expect(await productViewScreen.product(searchName)).toExist()
     });
 })
