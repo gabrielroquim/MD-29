@@ -28,7 +28,7 @@ class ProductViewScreen {
     }
 
     get #goToCart(){        
-        return $(`-ios predicate string:name == "Ingrid Running Jacket R$ 84.00" == "XCUIElementTypeButton"`)
+        return $(`-ios predicate string:label == "Ingrid Running Jacket R$ 84.00"`)
     }
     get #totalCart(){
         return $(`~R$ 84.00`)

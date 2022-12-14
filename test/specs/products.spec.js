@@ -13,7 +13,7 @@ describe('Product List', () => {
     //     await driver.closeApp()
     // })
     it('shoud list products', async () => {
-        expect(await productViewScreen.product("ngrid Running Jacket")).toExist()
+        expect(await productViewScreen.product("Ingrid Running Jacket")).toExist()
         expect(await productViewScreen.productList()).toBeElementsArrayOfSize(10)
     })
 })
