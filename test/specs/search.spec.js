@@ -14,7 +14,7 @@ describe('Search products', () => {
     // })
 
 
-    it('should search by Ingrid', async () => {
+    it('should search by teste', async () => {
         let searchName = 'teste'
         await productViewScreen.waitProduct(searchName)
         await productViewScreen.search()
