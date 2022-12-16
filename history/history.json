@@ -1,0 +1,62 @@
+{
+  "c7101fa96238f514e0247c8b632a7178" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14061b7d64a51696",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1671233815922,
+        "stop" : 1671233826134,
+        "duration" : 10212
+      }
+    } ]
+  },
+  "36a52741923a4d5c28485288cb2079d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70d54a7ba3ba63d0",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1671233849576,
+        "stop" : 1671233859431,
+        "duration" : 9855
+      }
+    } ]
+  },
+  "262c23941a3409abdff642c1a4d179da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9f68afb31163d7a",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1671233884138,
+        "stop" : 1671233894317,
+        "duration" : 10179
+      }
+    } ]
+  }
+}

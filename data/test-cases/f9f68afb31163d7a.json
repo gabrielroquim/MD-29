@@ -1,0 +1,82 @@
+{
+  "uid" : "f9f68afb31163d7a",
+  "name" : "should list products",
+  "fullName" : "Product List.should list products",
+  "historyId" : "262c23941a3409abdff642c1a4d179da",
+  "time" : {
+    "start" : 1671233884138,
+    "stop" : 1671233894317,
+    "duration" : 10179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms\n                    at /home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async ProductViewScreen.waitProduct (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:53:9)\n                    at async ProductViewScreen.product (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:62:9)\n                    at async Context.<anonymous> (/home/runner/work/MD-29/MD-29/test/specs/productCart.spec.js:6:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms",
+    "statusTrace" : "Error: element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms\n                    at /home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async ProductViewScreen.waitProduct (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:53:9)\n                    at async ProductViewScreen.product (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:62:9)\n                    at async Context.<anonymous> (/home/runner/work/MD-29/MD-29/test/specs/productCart.spec.js:6:16)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ace8d4f3db8227a",
+      "name" : "Execution video",
+      "source" : "4ace8d4f3db8227a.mp4",
+      "type" : "video/mp4",
+      "size" : 32214
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Product List"
+  }, {
+    "name" : "testClass",
+    "value" : "Product List"
+  }, {
+    "name" : "testMethod",
+    "value" : "should list products"
+  }, {
+    "name" : "package",
+    "value" : "Product List"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "iphone-14.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f9f68afb31163d7a.json",
+  "parameterValues" : [ "iphone-14.0" ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Dec 16 23:38:04 UTC 2022","Fri Dec 16 23:38:14 UTC 2022","10179","","Product List","","Product List","should list products","should list products",""
+"broken","Fri Dec 16 23:37:29 UTC 2022","Fri Dec 16 23:37:39 UTC 2022","9855","","Search products","","Search products","should search by Ingrid Running Jacket","should search by Ingrid Running Jacket",""
+"broken","Fri Dec 16 23:36:55 UTC 2022","Fri Dec 16 23:37:06 UTC 2022","10212","","Product List","","Product List","shoud list products","shoud list products",""
