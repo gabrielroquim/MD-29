@@ -1,24 +1,4 @@
 {
-  "c7101fa96238f514e0247c8b632a7178" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "14061b7d64a51696",
-      "status" : "broken",
-      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
-      "time" : {
-        "start" : 1671233815922,
-        "stop" : 1671233826134,
-        "duration" : 10212
-      }
-    } ]
-  },
   "36a52741923a4d5c28485288cb2079d0" : {
     "statistic" : {
       "failed" : 0,
@@ -29,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70d54a7ba3ba63d0",
+      "uid" : "b3570bfd1f61531b",
       "status" : "broken",
       "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
       "time" : {
-        "start" : 1671233849576,
-        "stop" : 1671233859431,
-        "duration" : 9855
+        "start" : 1671234791297,
+        "stop" : 1671234801439,
+        "duration" : 10142
+      }
+    } ]
+  },
+  "c7101fa96238f514e0247c8b632a7178" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0bbcf397184464d",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1671234757859,
+        "stop" : 1671234768006,
+        "duration" : 10147
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9f68afb31163d7a",
+      "uid" : "bc846b214ca9db98",
       "status" : "broken",
-      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'ngrid Running Jacket'\") still not displayed after 10000ms",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
       "time" : {
-        "start" : 1671233884138,
-        "stop" : 1671233894317,
-        "duration" : 10179
+        "start" : 1671234824365,
+        "stop" : 1671234834564,
+        "duration" : 10199
       }
     } ]
   }
