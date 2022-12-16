@@ -14,8 +14,8 @@ let capabilities = process.env.PLATFORM === 'android' ? {
 } : {
     capabilities: [{
         app: `${process.env.IOS_APP_ID}`,
-        project: "Meu primeiro projeto Appium iOS BS",
-        build: 'EBAC Test iOS',
+        project: "Meu primeiro projeto Appium iOS BRWS",
+        build: 'EBAC-LOJA Test CI iOS',
         name: 'ebac_test',
         device: 'iPhone 12 Pro',
         os_version: "14",
