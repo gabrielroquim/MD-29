@@ -1,12 +1,12 @@
 {
-  "uid" : "df2abad0253c345a",
+  "uid" : "dfaea74a87aed64b",
   "name" : "should search by Ingrid Running Jacket",
   "fullName" : "Search products.should search by Ingrid Running Jacket",
   "historyId" : "36a52741923a4d5c28485288cb2079d0",
   "time" : {
-    "start" : 1671276972612,
-    "stop" : 1671276992754,
-    "duration" : 20142
+    "start" : 1671277551514,
+    "stop" : 1671277571702,
+    "duration" : 20188
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "statusTrace" : "Error: element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms\n                    at /home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async ProductViewScreen.waitProduct (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:53:9)\n                    at async Context.<anonymous> (/home/runner/work/MD-29/MD-29/test/specs/search.spec.js:19:9)\n                    at async Context.executeAsync (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:285:16)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6a65abe9469f470c",
+      "uid" : "cbe52a82af5ea66f",
       "name" : "Execution video",
-      "source" : "6a65abe9469f470c.mp4",
+      "source" : "cbe52a82af5ea66f.mp4",
       "type" : "video/mp4",
-      "size" : 32232
+      "size" : 32094
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -43,7 +43,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "Search products"
@@ -77,6 +77,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "df2abad0253c345a.json",
+  "source" : "dfaea74a87aed64b.json",
   "parameterValues" : [ "iphone-14.0" ]
 }

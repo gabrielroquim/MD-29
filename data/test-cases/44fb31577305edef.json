@@ -1,12 +1,12 @@
 {
-  "uid" : "c58e3a486de07b52",
+  "uid" : "44fb31577305edef",
   "name" : "should list products",
   "fullName" : "Product cart.should list products",
   "historyId" : "a74510e03a9a1ec491387355a7352cd3",
   "time" : {
-    "start" : 1671277016763,
-    "stop" : 1671277036919,
-    "duration" : 20156
+    "start" : 1671277596120,
+    "stop" : 1671277616293,
+    "duration" : 20173
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -22,11 +22,11 @@
     "statusTrace" : "Error: element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms\n                    at /home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async Element.elementErrorHandlerCallbackFn (/home/runner/work/MD-29/MD-29/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at async Element.wrapCommandFn (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:104:29)\n                    at async ProductViewScreen.waitProduct (/home/runner/work/MD-29/MD-29/test/screens/productView.screen.js:53:9)\n                    at async Context.<anonymous> (/home/runner/work/MD-29/MD-29/test/specs/productCart.spec.js:8:9)\n                    at async Context.executeAsync (/home/runner/work/MD-29/MD-29/node_modules/@wdio/utils/build/shim.js:285:16)",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dad93f7c9b9bb173",
+      "uid" : "17615d104353a8d3",
       "name" : "Execution video",
-      "source" : "dad93f7c9b9bb173.mp4",
+      "source" : "17615d104353a8d3.mp4",
       "type" : "video/mp4",
-      "size" : 32191
+      "size" : 32166
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -43,7 +43,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-1"
   }, {
     "name" : "suite",
     "value" : "Product cart"
@@ -77,6 +77,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "c58e3a486de07b52.json",
+  "source" : "44fb31577305edef.json",
   "parameterValues" : [ "iphone-14.0" ]
 }

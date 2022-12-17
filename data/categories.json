@@ -5,40 +5,27 @@
     "children" : [ {
       "name" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
       "children" : [ {
-        "name" : "shoud list products",
-        "uid" : "26601c1a8965e925",
-        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1671276928545,
-          "stop" : 1671276948711,
-          "duration" : 20166
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "iphone-14.0" ]
-      }, {
         "name" : "should search by Ingrid Running Jacket",
-        "uid" : "df2abad0253c345a",
+        "uid" : "dfaea74a87aed64b",
         "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
         "status" : "broken",
         "time" : {
-          "start" : 1671276972612,
-          "stop" : 1671276992754,
-          "duration" : 20142
+          "start" : 1671277551514,
+          "stop" : 1671277571702,
+          "duration" : 20188
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "iphone-14.0" ]
       }, {
         "name" : "should list products",
-        "uid" : "c58e3a486de07b52",
+        "uid" : "44fb31577305edef",
         "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
         "status" : "broken",
         "time" : {
-          "start" : 1671277016763,
-          "stop" : 1671277036919,
-          "duration" : 20156
+          "start" : 1671277596120,
+          "stop" : 1671277616293,
+          "duration" : 20173
         },
         "flaky" : false,
         "newFailed" : false,

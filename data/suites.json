@@ -1,33 +1,16 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
-    "name" : "Product List",
-    "children" : [ {
-      "name" : "shoud list products",
-      "uid" : "26601c1a8965e925",
-      "parentUid" : "55fc2fc815fda60f9e7e4acab2e71765",
-      "status" : "broken",
-      "time" : {
-        "start" : 1671276928545,
-        "stop" : 1671276948711,
-        "duration" : 20166
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "iphone-14.0" ]
-    } ],
-    "uid" : "55fc2fc815fda60f9e7e4acab2e71765"
-  }, {
     "name" : "Search products",
     "children" : [ {
       "name" : "should search by Ingrid Running Jacket",
-      "uid" : "df2abad0253c345a",
+      "uid" : "dfaea74a87aed64b",
       "parentUid" : "bbfce99433734e68880e29758f70fa2e",
       "status" : "broken",
       "time" : {
-        "start" : 1671276972612,
-        "stop" : 1671276992754,
-        "duration" : 20142
+        "start" : 1671277551514,
+        "stop" : 1671277571702,
+        "duration" : 20188
       },
       "flaky" : false,
       "newFailed" : false,
@@ -38,13 +21,13 @@
     "name" : "Product cart",
     "children" : [ {
       "name" : "should list products",
-      "uid" : "c58e3a486de07b52",
+      "uid" : "44fb31577305edef",
       "parentUid" : "a2ace267402e4c72ef8bfe43a000b831",
       "status" : "broken",
       "time" : {
-        "start" : 1671277016763,
-        "stop" : 1671277036919,
-        "duration" : 20156
+        "start" : 1671277596120,
+        "stop" : 1671277616293,
+        "duration" : 20173
       },
       "flaky" : false,
       "newFailed" : false,
