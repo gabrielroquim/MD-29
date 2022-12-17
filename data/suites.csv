@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Dec 16 23:53:44 UTC 2022","Fri Dec 16 23:53:54 UTC 2022","10199","","Product List","","Product List","should list products","should list products",""
-"broken","Fri Dec 16 23:53:11 UTC 2022","Fri Dec 16 23:53:21 UTC 2022","10142","","Search products","","Search products","should search by Ingrid Running Jacket","should search by Ingrid Running Jacket",""
-"broken","Fri Dec 16 23:52:37 UTC 2022","Fri Dec 16 23:52:48 UTC 2022","10147","","Product List","","Product List","shoud list products","shoud list products",""
+"broken","Sat Dec 17 11:36:12 UTC 2022","Sat Dec 17 11:36:32 UTC 2022","20142","","Search products","","Search products","should search by Ingrid Running Jacket","should search by Ingrid Running Jacket",""
+"broken","Sat Dec 17 11:36:56 UTC 2022","Sat Dec 17 11:37:16 UTC 2022","20156","","Product cart","","Product cart","should list products","should list products",""
+"broken","Sat Dec 17 11:35:28 UTC 2022","Sat Dec 17 11:35:48 UTC 2022","20166","","Product List","","Product List","shoud list products","shoud list products",""

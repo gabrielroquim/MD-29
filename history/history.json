@@ -1,4 +1,24 @@
 {
+  "a74510e03a9a1ec491387355a7352cd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c58e3a486de07b52",
+      "status" : "broken",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
+      "time" : {
+        "start" : 1671277016763,
+        "stop" : 1671277036919,
+        "duration" : 20156
+      }
+    } ]
+  },
   "36a52741923a4d5c28485288cb2079d0" : {
     "statistic" : {
       "failed" : 0,
@@ -9,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3570bfd1f61531b",
+      "uid" : "df2abad0253c345a",
       "status" : "broken",
-      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
       "time" : {
-        "start" : 1671234791297,
-        "stop" : 1671234801439,
-        "duration" : 10142
+        "start" : 1671276972612,
+        "stop" : 1671276992754,
+        "duration" : 20142
       }
     } ]
   },
@@ -29,33 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a0bbcf397184464d",
+      "uid" : "26601c1a8965e925",
       "status" : "broken",
-      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
       "time" : {
-        "start" : 1671234757859,
-        "stop" : 1671234768006,
-        "duration" : 10147
-      }
-    } ]
-  },
-  "262c23941a3409abdff642c1a4d179da" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bc846b214ca9db98",
-      "status" : "broken",
-      "statusDetails" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
-      "time" : {
-        "start" : 1671234824365,
-        "stop" : 1671234834564,
-        "duration" : 10199
+        "start" : 1671276928545,
+        "stop" : 1671276948711,
+        "duration" : 20166
       }
     } ]
   }

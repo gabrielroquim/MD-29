@@ -1,30 +1,30 @@
 [ {
-  "uid" : "bc846b214ca9db98",
-  "name" : "should list products",
-  "time" : {
-    "start" : 1671234824365,
-    "stop" : 1671234834564,
-    "duration" : 10199
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b3570bfd1f61531b",
+  "uid" : "df2abad0253c345a",
   "name" : "should search by Ingrid Running Jacket",
   "time" : {
-    "start" : 1671234791297,
-    "stop" : 1671234801439,
-    "duration" : 10142
+    "start" : 1671276972612,
+    "stop" : 1671276992754,
+    "duration" : 20142
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a0bbcf397184464d",
+  "uid" : "c58e3a486de07b52",
+  "name" : "should list products",
+  "time" : {
+    "start" : 1671277016763,
+    "stop" : 1671277036919,
+    "duration" : 20156
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "26601c1a8965e925",
   "name" : "shoud list products",
   "time" : {
-    "start" : 1671234757859,
-    "stop" : 1671234768006,
-    "duration" : 10147
+    "start" : 1671276928545,
+    "stop" : 1671276948711,
+    "duration" : 20166
   },
   "status" : "broken",
   "severity" : "normal"

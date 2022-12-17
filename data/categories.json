@@ -3,48 +3,48 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 10000ms",
+      "name" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
       "children" : [ {
         "name" : "shoud list products",
-        "uid" : "a0bbcf397184464d",
-        "parentUid" : "230fc38e890ca1321bb363edf2edb882",
+        "uid" : "26601c1a8965e925",
+        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
         "status" : "broken",
         "time" : {
-          "start" : 1671234757859,
-          "stop" : 1671234768006,
-          "duration" : 10147
+          "start" : 1671276928545,
+          "stop" : 1671276948711,
+          "duration" : 20166
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "iphone-14.0" ]
       }, {
         "name" : "should search by Ingrid Running Jacket",
-        "uid" : "b3570bfd1f61531b",
-        "parentUid" : "230fc38e890ca1321bb363edf2edb882",
+        "uid" : "df2abad0253c345a",
+        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
         "status" : "broken",
         "time" : {
-          "start" : 1671234791297,
-          "stop" : 1671234801439,
-          "duration" : 10142
+          "start" : 1671276972612,
+          "stop" : 1671276992754,
+          "duration" : 20142
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "iphone-14.0" ]
       }, {
         "name" : "should list products",
-        "uid" : "bc846b214ca9db98",
-        "parentUid" : "230fc38e890ca1321bb363edf2edb882",
+        "uid" : "c58e3a486de07b52",
+        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
         "status" : "broken",
         "time" : {
-          "start" : 1671234824365,
-          "stop" : 1671234834564,
-          "duration" : 10199
+          "start" : 1671277016763,
+          "stop" : 1671277036919,
+          "duration" : 20156
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "iphone-14.0" ]
       } ],
-      "uid" : "230fc38e890ca1321bb363edf2edb882"
+      "uid" : "85f1380da6c295b1a2eea7dbc07404fc"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
