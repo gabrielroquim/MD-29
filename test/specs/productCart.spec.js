@@ -1,10 +1,16 @@
 const productsViewScreen = require('../screens/productView.screen')
 
-describe('Product List', () => {
+describe('Product cart', () => {
 
     it('should list products', async () => {
-        expect(await productsViewScreen.product('Ingrid Running Jacket')).toExist()
-        expect(await productsViewScreen.productList()).toBeElementsArrayOfSize(5)
+        const name = 'Ingrid Running Jacket'
+        const searchName = 'teste'
+        await productsViewScreen.waitProduct(name)
+        await productsViewScreen.search()
+        await productsViewScreen.searchBy(`${searchName}\n`)
+        await productsViewScreen.productSelect()
+        await productsViewScreen.productAdd()
+        await productsViewScreen.goToCArt()
     })
 
     

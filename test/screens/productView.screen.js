@@ -50,7 +50,7 @@ class ProductViewScreen {
     }
 
     async waitProduct(name){
-        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 10000 })
+        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 20000 })
     }
 
     async productSelect(){
