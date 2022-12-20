@@ -1,39 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element (\"-ios predicate string:name CONTAINS 'Ingrid Running Jacket'\") still not displayed after 20000ms",
-      "children" : [ {
-        "name" : "should search by Ingrid Running Jacket",
-        "uid" : "dfaea74a87aed64b",
-        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1671277551514,
-          "stop" : 1671277571702,
-          "duration" : 20188
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "iphone-14.0" ]
-      }, {
-        "name" : "should list products",
-        "uid" : "44fb31577305edef",
-        "parentUid" : "85f1380da6c295b1a2eea7dbc07404fc",
-        "status" : "broken",
-        "time" : {
-          "start" : 1671277596120,
-          "stop" : 1671277616293,
-          "duration" : 20173
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "iphone-14.0" ]
-      } ],
-      "uid" : "85f1380da6c295b1a2eea7dbc07404fc"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

@@ -1,39 +1,5 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "children" : [ {
-    "name" : "Search products",
-    "children" : [ {
-      "name" : "should search by Ingrid Running Jacket",
-      "uid" : "dfaea74a87aed64b",
-      "parentUid" : "36fe3d2dba441c24ceffd29ec5cc5260",
-      "status" : "broken",
-      "time" : {
-        "start" : 1671277551514,
-        "stop" : 1671277571702,
-        "duration" : 20188
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "iphone-14.0" ]
-    } ],
-    "uid" : "36fe3d2dba441c24ceffd29ec5cc5260"
-  }, {
-    "name" : "Product cart",
-    "children" : [ {
-      "name" : "should list products",
-      "uid" : "44fb31577305edef",
-      "parentUid" : "c5d29d419ac971ee0c65598def4aba67",
-      "status" : "broken",
-      "time" : {
-        "start" : 1671277596120,
-        "stop" : 1671277616293,
-        "duration" : 20173
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "iphone-14.0" ]
-    } ],
-    "uid" : "c5d29d419ac971ee0c65598def4aba67"
-  } ],
+  "children" : [ ],
   "name" : "packages"
 }
