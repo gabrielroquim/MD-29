@@ -34,8 +34,6 @@ class LoginScreen {
         await this.#password.setValue(password)
         await this.#continue.click()
     }
-
-
 }
 
 module.exports = new LoginScreen()
