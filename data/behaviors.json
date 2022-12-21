@@ -1,5 +1,44 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "shoud list products",
+    "uid" : "6e279b32c26dca7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1671662067854,
+      "stop" : 1671662088006,
+      "duration" : 20152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "iphone-14.0" ]
+  }, {
+    "name" : "should search by Ingrid Running Jacket",
+    "uid" : "89c7475f726ef83f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1671662117203,
+      "stop" : 1671662137421,
+      "duration" : 20218
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "iphone-14.0" ]
+  }, {
+    "name" : "should list products",
+    "uid" : "1eda2b60f3ec9500",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1671662161474,
+      "stop" : 1671662181616,
+      "duration" : 20142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "iphone-14.0" ]
+  } ],
   "name" : "behaviors"
 }
