@@ -10,7 +10,7 @@ let generalConf = {
         timeout: 300000
     },
     maxInstances: 1,
-    ...hooksConf,
+   ...hooksConf,
     ...reportersConf,
     ...specsConf
 }

@@ -5,8 +5,8 @@ const video = require('wdio-video-reporter');
 exports.config = {
 
     path: '/wd/hub',
-    user: "gabrielamorimdas_XUf4vO",
-    key: "KFvWTnxQvyEyrg3bhqKX",
+    user: "gabrielroquim_j2H5F4",
+    key: "ZV6tSgzyw2ytsxvpUyRF",
 
     services: ['browserstack'],
     specs: [
